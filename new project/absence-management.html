@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Absence Management</title>
+  <link rel="stylesheet" href="css/absence-management.css" />
+</head>
+<body>
+  <div class="absence-management">
+    <h1>Absence Management</h1>
+    <form>
+      <label for="student-name">Student Name:</label>
+      <input type="text" id="student-name" name="student-name" required />
+
+      <label for="absence-date">Absence Date:</label>
+      <input type="date" id="absence-date" name="absence-date" required />
+
+      <label for="reason">Reason:</label>
+      <textarea id="reason" name="reason" required></textarea>
+
+      <button type="submit">Submit Absence</button>
+    </form>
+    <h2>Reported Absences</h2>
+    <table>
+      <tr><th>Student Name</th><th>Absence Date</th><th>Reason</th></tr>
+      <tr><td>John Doe</td><td>2025-04-01</td><td>Family Event</td></tr>
+      <tr><td>Jane Smith</td><td>2025-04-02</td><td>Medical Leave</td></tr>
+    </table>
+  </div>
+</body>
+</html>

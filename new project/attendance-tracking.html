@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Attendance Tracking</title>
+  <link rel="stylesheet" href="css/attandance-tracking.css">
+</head>
+<body>
+  <div class="attendance-tracking">
+    <h1>Attendance Tracking</h1>
+    <form>
+      <label for="student-name">Student Name:</label>
+      <input type="text" id="student-name" name="student-name" required>
+      
+      <label for="attendance-status">Attendance Status:</label>
+      <select id="attendance-status" name="attendance-status">
+        <option value="present">Present</option>
+        <option value="absent">Absent</option>
+      </select>
+      
+      <button type="submit">Submit Attendance</button>
+    </form>
+    <h2>Attendance Records</h2>
+    <ul>
+      <li>Student 1 - Present</li>
+      <li>Student 2 - Absent</li>
+    </ul>
+  </div>
+</body>
+</html>

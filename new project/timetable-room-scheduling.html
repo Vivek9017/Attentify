@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Time Table and Room Scheduling</title>
+  <link rel="stylesheet" href="css/timetable-room-scheduling.css" />
+</head>
+<body>
+  <div class="timetable-room-scheduling">
+    <h1>Time Table and Room Scheduling</h1>
+    <h2>Schedule a New Class</h2>
+    <form>
+      <label for="class-name">Class Name:</label>
+      <input type="text" id="class-name" name="class-name" required />
+
+      <label for="room">Room Number:</label>
+      <input type="text" id="room" name="room" required />
+
+      <label for="time-slot">Time Slot:</label>
+      <input type="text" id="time-slot" name="time-slot" required />
+
+      <button type="submit">Schedule Class</button>
+    </form>
+    <h2>Scheduled Classes</h2>
+    <table>
+      <tr><th>Class Name</th><th>Room Number</th><th>Time Slot</th></tr>
+      <tr><td>Math 101</td><td>Room 1</td><td>09:00 AM - 10:30 AM</td></tr>
+      <tr><td>Science 102</td><td>Room 2</td><td>11:00 AM - 12:30 PM</td></tr>
+    </table>
+  </div>
+</body>
+</html>

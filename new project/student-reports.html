@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Student Reports</title>
+  <link rel="stylesheet" href="css/student-reports.css" />
+</head>
+<body>
+  <div class="student-reports">
+    <h1>Student Reports</h1>
+    <h2>Generated Reports</h2>
+    <ul>
+      <li>Math Performance Report <button>Download</button></li>
+      <li>Science Lab Activity Report <button>Download</button></li>
+      <li>English Essay Evaluation <button>Download</button></li>
+    </ul>
+    <h2>Request New Report</h2>
+    <form>
+      <label for="report-name">Report Name:</label>
+      <input type="text" id="report-name" name="report-name" required />
+      
+      <label for="report-type">Report Type:</label>
+      <select id="report-type" name="report-type">
+        <option value="performance">Performance</option>
+        <option value="attendance">Attendance</option>
+        <option value="assignment">Assignment</option>
+      </select>
+
+      <button type="submit">Request Report</button>
+    </form>
+  </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test and Assignment Management</title>
+  <link rel="stylesheet" href="css/test-assignment.css">
+</head>
+<body>
+  <div class="test-assignment">
+    <h1>Test & Assignment Management</h1>
+    
+    <form>
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+      
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" rows="4" required></textarea>
+      
+      <label for="due-date">Due Date:</label>
+      <input type="date" id="due-date" name="due-date" required>
+      
+      <label for="file-upload">Upload File:</label>
+      <input type="file" id="file-upload" name="file-upload" required>
+      
+      <button type="submit">Upload</button>
+    </form>
+
+    <h2>Uploaded Tests & Assignments</h2>
+    <ul>
+      <li>
+        <div>
+          <strong>Math Quiz 1</strong><br>
+          Due: 2025-04-20<br>
+          Description: Algebra and Geometry Quiz
+        </div>
+        <button>Download</button>
+      </li>
+      <li>
+        <div>
+          <strong>Science Assignment</strong><br>
+          Due: 2025-04-22<br>
+          Description: Write a report on Photosynthesis
+        </div>
+        <button>Download</button>
+      </li>
+    </ul>
+  </div>
+</body>
+</html>

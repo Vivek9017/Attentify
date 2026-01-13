@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Batch Management</title>
+  <link rel="stylesheet" href="css/batch-management.css" />
+</head>
+<body>
+  <div class="batch-management">
+    <h1>Batch Management</h1>
+    <h2>Create a New Batch</h2>
+    <form>
+      <label for="batch-name">Batch Name:</label>
+      <input type="text" id="batch-name" name="batch-name" required />
+
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required />
+
+      <label for="start-time">Start Time:</label>
+      <input type="time" id="start-time" name="start-time" required />
+
+      <label for="end-time">End Time:</label>
+      <input type="time" id="end-time" name="end-time" required />
+
+      <button type="submit">Create Batch</button>
+    </form>
+    <h2>Existing Batches</h2>
+    <table>
+      <tr><th>Batch Name</th><th>Subject</th><th>Start Time</th><th>End Time</th></tr>
+      <tr><td>Math 101</td><td>Math</td><td>09:00 AM</td><td>10:30 AM</td></tr>
+      <tr><td>Science 102</td><td>Science</td><td>11:00 AM</td><td>12:30 PM</td></tr>
+    </table>
+  </div>
+</body>
+</html>

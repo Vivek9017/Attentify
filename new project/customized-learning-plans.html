@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Customized Learning Plans</title>
+  <link rel="stylesheet" href="css/customized-learning-plans.css" />
+</head>
+<body>
+  <div class="customized-learning-plans">
+    <h1>Customized Learning Plans</h1>
+    <h2>Create a New Learning Plan</h2>
+    <form>
+      <label for="student-name">Student Name:</label>
+      <input type="text" id="student-name" name="student-name" required />
+
+      <label for="learning-goals">Learning Goals:</label>
+      <textarea id="learning-goals" name="learning-goals" required></textarea>
+
+      <label for="start-date">Start Date:</label>
+      <input type="date" id="start-date" name="start-date" required />
+
+      <label for="end-date">End Date:</label>
+      <input type="date" id="end-date" name="end-date" required />
+
+      <button type="submit">Create Plan</button>
+    </form>
+    <h2>Existing Learning Plans</h2>
+    <table>
+      <tr><th>Student Name</th><th>Goals</th><th>Start Date</th><th>End Date</th></tr>
+      <tr><td>John Doe

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Fee Management System</title>
+  <link rel="stylesheet" href="css/fee-management-system.css" />
+</head>
+<body>
+  <div class="fee-management-system">
+    <h1>Fee Management System</h1>
+    <h2>Pay Fee</h2>
+    <form>
+      <label for="student-name">Student Name:</label>
+      <input type="text" id="student-name" name="student-name" required />
+
+      <label for="fee-amount">Fee Amount:</label>
+      <input type="number" id="fee-amount" name="fee-amount" required />
+
+      <label for="due-date">Due Date:</label>
+      <input type="date" id="due-date" name="due-date" required />
+
+      <button type="submit">Pay Fee</button>
+    </form>
+    <h2>Fee Status</h2>
+    <table>
+      <tr><th>Student Name</th><th>Fee Amount</th><th>Status</th></tr>
+      <tr><td>John Doe</td><td>₹1000</td><td>Paid</td></tr>
+      <tr><td>Jane Smith</td><td>₹1500</td><td>Unpaid</td></tr>
+    </table>
+  </div>
+</body>
+</html>
